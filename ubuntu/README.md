@@ -28,6 +28,9 @@
 * [問題解決](#問題解決)
   - [E: Sub-process /usr/bin/dpkg returned an error code](#e-sub-process-usrbindpkg-returned-an-error-code)
 ----
+## 筆記
+* [中華電信Router D-Link WBR-2200](#中華電信router-d-Link-wbr-2200)
+----
 
 ## 密碼設定
 ```shell
@@ -332,3 +335,13 @@ $ sudo mv /var/lib/dpkg/info /var/lib/dpkg/info.bak
 $ sudo mkdir /var/lib/dpkg/info
 $ sudo apt-get update
 ```
+
+---
+## 中華電信Router D-Link WBR-2200
+1. 一般使用者：
+> 帳號：user <br>
+> 密碼：user
+
+2. 管理者：
+> 帳號：cht <br>
+> 密碼：chtap
