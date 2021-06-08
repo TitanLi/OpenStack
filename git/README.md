@@ -36,3 +36,8 @@ $ git reset --hard commit_id
 ```shell
 $ git pull origin <branch-name>
 ```
+
+## 刪除本地commit並保留程式碼
+```shell
+$ git reset --soft HEAD^
+```
